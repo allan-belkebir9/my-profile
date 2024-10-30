@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #4CAF50; /* Green background */
+    color: #fff; /* White text */
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #4CAF50; /* Green for h2 */
+    margin-top: 20px;
+}
+
+.intro img {
+    max-width: 200px; /* Limit image size */
+    border-radius: 50%; /* Circular image */
+    display: block; /* Center image */
+    margin: 20px auto; /* Center image with margin */
+}
+
+.intro {
+    text-align: center; /* Center text in intro */
+}
+
+.intro p {
+    margin: 15px 0;
+    padding: 0 20px; /* Add padding for better readability */
+}
+
+a {
+    display: inline-block; /* Makes the link block level */
+    background: #4CAF50; /* Green background for links */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding for links */
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners */
+    margin: 10px 0; /* Margin for spacing */
+}
+
+a:hover {
+    background: #45a049; /* Darker green on hover */
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+}
+
+li {
+    margin: 10px 0; /* Margin for list items */
+}
+
+.container {
+    max-width: 800px; /* Maximum width for the content */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding for the container */
+}
+
+.section {
+    background: white; /* White background for sections */
+    padding: 20px; /* Padding for sections */
+    margin: 20px 0; /* Margin for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for relief effect */
+}
+
+.follow-me {
+    margin-top: 30px; /* Additional margin above Follow Me section */
+}
+
+.section h2 {
+    margin-top: 0; /* Remove top margin from section headers */
+}
+
+footer {
+    text-align: center; /* Center the footer text */
+    padding: 20px 0; /* Padding for footer */
+    background: #4CAF50; /* Green background */
+    color: white; /* White text */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
